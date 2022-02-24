@@ -1,0 +1,113 @@
+.rightbar-container {
+  background-color: black;
+  width: 24%;
+  border-left: 1.5px solid rgb(88, 88, 88);
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 30px 20px 30px;
+}
+
+.avalanche-container {
+  background-color: rgb(97, 97, 97);
+  width: 44%;
+  height: 35px;
+  color: white;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  cursor: pointer;
+}
+
+.address-container {
+  border: 2px solid blue;
+  border-radius: 8px;
+  width: 44%;
+  font-size: 12px;
+  font-weight: 400;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  cursor: pointer;
+}
+
+.link-container {
+  padding: 20px 20px 20px 30px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 190px;
+}
+
+.custom-link {
+  width: 43%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+
+.link-address {
+  width: 86%;
+  font-size: 16px;
+  padding: 10px;
+  color: white;
+}
+
+.enter-button {
+  width: 99%;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 12px;
+  color: white;
+  background-color: rgb(65, 65, 65);
+  border: 1px solid rgb(63, 58, 58);
+}
+
+.action-buttons {
+  padding: 20px 20px 20px 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.editable-button,
+.cancel-button {
+  padding: 8px;
+  border-radius: 8px;
+  color: white;
+  font-size: 14px;
+  font-weight: 550;
+  cursor: pointer;
+}
+
+.editable-button {
+  width: 43%;
+  margin-right: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: blue;
+  border: 1px solid blue;
+}
+
+.cancel-button {
+  width: 38%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: rgb(26, 26, 26);
+  border: 1px solid rgb(61, 61, 61);
+}
+
+.cancel-button img {
+  padding: 0 6px;
+}

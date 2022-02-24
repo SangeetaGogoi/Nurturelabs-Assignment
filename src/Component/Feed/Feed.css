@@ -1,0 +1,348 @@
+.feed-container {
+  background-color: black;
+  width: 58%;
+  height: max-content;
+}
+
+.nav-bar {
+  padding: 20px 20px 0px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.section-container {
+  width: 10%;
+  padding: 8px;
+  color: white;
+  font-size: 17px;
+  font-weight: 600;
+  border-bottom: 3px solid blue;
+  cursor: pointer;
+}
+
+.balance-container {
+  background-color: rgb(49, 49, 49);
+  width: 22%;
+  padding: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.wallet-icon {
+  height: 18px;
+}
+
+.tier {
+  background-color: lightblue;
+  font-size: 13px;
+  color: blue;
+  border-radius: 5px;
+  width: 45px;
+  text-align: center;
+}
+
+.banner-container {
+  width: 100%;
+  margin-top: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.promo-panel {
+  background-color: lightblue;
+  width: 93%;
+  font-size: 14px;
+  font-weight: 100;
+  border-radius: 10px;
+  padding: 15px 20px 15px 20px;
+  position: relative;
+}
+
+.tutorial-con {
+  margin-top: 8px;
+  font-size: 13px;
+  font-weight: 600;
+  width: 80px;
+  padding: 4px;
+  border: white;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+}
+
+.remove-icon {
+  position: absolute;
+  right: 0px;
+  bottom: 65px;
+}
+
+.image {
+  width: 100px;
+  position: absolute;
+  right: 15px;
+  top: 12px;
+}
+
+.reward-container {
+  color: white;
+  margin-top: 8px;
+  padding: 10px 20px 10px 30px;
+}
+
+.reward-innercontainer {
+  background-color: #191b20;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.reward-innercontainer p {
+  padding: 0px 0px 0px 10px;
+}
+
+.rewards-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  font-size: 17px;
+  width: 98%;
+}
+
+.rewards-link .editable-button {
+  width: 18%;
+}
+
+.rewards-scheme {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 10px;
+}
+
+.avax,
+.bnb,
+.btc {
+  background-color: rgb(51, 50, 50);
+  padding: 5px;
+  border-radius: 20px;
+  width: 70px;
+  text-align: center;
+}
+
+.ad-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px 10px 30px;
+  color: white;
+}
+
+.left-container,
+.right-container {
+  background-color: #191b20;
+  width: 48%;
+  padding: 25px;
+  border-radius: 8px;
+}
+
+.percentage {
+  width: 42%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.referral-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 99%;
+  font-size: 14px;
+  font-weight: 600;
+  background-color: rgb(51, 50, 50);
+  border-radius: 8px;
+  padding: 10px;
+  margin-top: 15px;
+}
+
+.referral-link .copy-icon {
+  width: 15px;
+  height: 15px;
+}
+
+.copy-icon {
+  cursor: pointer;
+}
+
+.left-container p {
+  color: rgb(153, 153, 153);
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.right-container p {
+  color: rgb(153, 153, 153);
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.bottom-bar {
+  padding: 25px 30px 10px 30px;
+  margin-top: 10px;
+}
+
+.title {
+  font-weight: 200;
+  display: flex;
+  justify-content: space-between;
+  width: 28%;
+}
+
+.title h3 {
+  font-size: 18px;
+  width: 35%;
+  color: white;
+  border-bottom: 4px solid blue;
+}
+
+.title h4 {
+  font-size: 18px;
+  color: rgb(116, 116, 116);
+}
+
+.first-tab {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: #191b20;
+  margin-top: 20px;
+  padding: 10px 20px 10px 20px;
+  font-size: 10px;
+  font-weight: 400;
+  color: rgb(163, 163, 163);
+  border-radius: 8px;
+}
+
+.second-tab {
+  display: flex;
+  justify-content: space-between;
+  background-color: #242731;
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  color: white;
+}
+
+.asset-availability {
+  display: flex;
+}
+
+.asset-outer {
+  margin-left: 10px;
+  font-size: 12px;
+}
+
+.avax-con {
+  width: 48px;
+  background: rgb(119, 119, 119);
+  border-radius: 20px;
+  border: 1px solid rgb(83, 83, 83);
+  font-size: 8px;
+  font-weight: 600;
+  color: rgb(231, 231, 231);
+  text-align: center;
+  margin-left: 5px;
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.asset-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btc-icon {
+  height: 28px;
+}
+
+.avax-png {
+  height: 15px;
+}
+
+.amount-con h3,
+.useraccount-con h3,
+.referral-con h3 {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.amount-con h4,
+.referral-inner {
+  color: #808191;
+  font-size: 13px;
+}
+
+.referral-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 125px;
+}
+
+.enter-png {
+  width: 10px;
+  height: 10px;
+}
+
+.amount-con {
+  width: 130px;
+}
+
+.useraccount-con {
+  width: 130px;
+}
+
+.referral-con {
+  display: flex;
+  flex-direction: column;
+}
+
+.bottom-bar .title {
+  cursor: pointer;
+}
+
+.first-tab h4 {
+  width: 20%;
+}
+
+.second-tab .asset-availability,
+.amount-con,
+.useraccount-con,
+.referral-con {
+  width: 20%;
+  text-align: left;
+}
+
+.second-tab .amount-con {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}

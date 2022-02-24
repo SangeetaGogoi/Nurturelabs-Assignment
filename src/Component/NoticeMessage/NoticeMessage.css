@@ -1,0 +1,10 @@
+.notice-container {
+  background-color: #3772ff;
+  color: white;
+  height: 40px;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  font-style: normal;
+  text-align: center;
+}
